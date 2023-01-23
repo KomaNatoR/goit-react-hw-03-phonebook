@@ -29,7 +29,7 @@ export class App extends Component  {
     const { contacts } = this.state;
 
     if (prevState.contacts !== this.state.contacts) {
-      localStorage.setItem('todos', JSON.stringify(contacts));
+      localStorage.setItem('contacts', JSON.stringify(contacts));
     };
   };
 
