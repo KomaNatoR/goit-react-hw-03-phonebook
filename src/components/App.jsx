@@ -18,7 +18,7 @@ export class App extends Component  {
   };
   // ----------------------------------------|   МЕТОДИ ЦИКЛА
   componentDidMount() {
-    const contactsLocalStor = localStorage.getItem('todos');
+    const contactsLocalStor = localStorage.getItem('contacts');
     const contactsParse = JSON.parse(contactsLocalStor);
 
     if (contactsParse) {
